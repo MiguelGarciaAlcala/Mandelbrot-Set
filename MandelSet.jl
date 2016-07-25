@@ -20,4 +20,4 @@ M = [UInt8(mandelSet(complex(r,i),complex(r,i))) for i=-2:0.001:2, r=-2:0.001:2]
 
 imshow(M, cmap="RdGy", extent=[-2,2,-1.5,1.5])
 
-#=More info: go to the README.md file=#
+#=More info: go to the README file=#
