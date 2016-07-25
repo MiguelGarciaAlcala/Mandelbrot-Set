@@ -6,10 +6,10 @@ using PyPlot
 function mandelSet(z, c)
    for i=1:80
         if abs(z)>2
-			return i-1
-		end
-	z = z^2+c
+	return i-1
 	end
+	z = z^2+c
+   end
 end
 
 #=Step 3. Now we can use the mandelSet() function to fill a Matrix with the Mandelbrot's values and then show them=#
