@@ -4,8 +4,8 @@ using PyPlot
 #=Step 2. First we need to create a function to select a range of numbers that belong to the Mandelbrot Set=#
 
 function mandelSet(z, c)
-	for i=1:80
-		if abs(z)>2
+   for i=1:80
+        if abs(z)>2
 			return i-1
 		end
 	z = z^2+c
